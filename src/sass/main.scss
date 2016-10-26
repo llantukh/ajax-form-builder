@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+form {
+  margin-left: 350px;
+  width: 500px;
+  border: 1px solid lightgrey;
+}
+
+.entirePage {
+}
+
+.heading {
+  background: #468CC8;
+  color: white;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+// .container {
+//
+// }
+
+.bottom {
+  background: #CADEEF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.button {
+  background: #468CC8;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 14px;
+  border: 0px;
+  margin-left: 20px;
+  border-radius: 2px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
