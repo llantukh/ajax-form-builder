@@ -20,11 +20,46 @@ form {
   font-size: 30px;
   font-family: 'Open Sans Condensed', sans-serif;
 }
-// 
-// .container {
-//   margin: auto;
-// }
 
+.container {
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.dropDown {
+  margin-bottom: 20px;
+  .form {
+    width: 400px;
+  }
+}
+
+.commentBox {
+  .form {
+    width: 400px;
+  }
+  margin-bottom: 20px;
+}
+
+.other {
+  margin-bottom: 20px;
+  .otherInfo {
+    width: 400px;
+  }
+}
+
+// .dropDown {
+//   width: 90%;
+// }
+//
+// .commentBox {
+//   width: 90%;
+// }
+//
+// .other {
+//   width: 90%;
+// }
+//
 .bottom {
   background: #CADEEF;
   padding-top: 20px;
