@@ -2,7 +2,7 @@ import $ from 'jquery';
 
 
 var data = $.ajax({
-  url: "http://json-data.herokuapp.com/forms",
+  url: "https://json-data.herokuapp.com/forms",
 });
 // console.log(data);
 
@@ -31,7 +31,7 @@ function makeForm (item) {
     } else {
     var resultsHTML = `
     <div class="other">
-    <i class="smallIcon fa ${item[i].icon}"></i>
+    <i class="smallIcon fa ${item[i].icon} formIcon" ></i>
     <input class="otherInfo" placeholder="${item[i].label}">
     </div>
     `;
