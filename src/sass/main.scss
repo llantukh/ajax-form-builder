@@ -36,6 +36,8 @@ form {
 .commentBox {
   .form {
     width: 400px;
+    padding-left: 30px;
+
   }
   margin-bottom: 20px;
 }
@@ -45,15 +47,16 @@ form {
 }
 .smallIcon {
   position: absolute;
-  height: 20px;
-  width: 20px;
-  border: 2px solid red;
-  margin-top: 8px;
-  margin-left: 3px;
+  margin-top: 10px;
+  left: 10px;
+  color: grey;
+}
+.other{
+
 }
 .otherInfo {
   width: 400px;
-  // position: relative;
+  padding-left: 30px;
 }
 
 
